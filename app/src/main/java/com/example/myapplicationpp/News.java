@@ -1,11 +1,31 @@
 package com.example.myapplicationpp;
 
+
 public class News {
 
+    public String id;
     public String title;
     public String content;
     public String Source;
     public String Time;
+    public int imageSource;
+
+    public int getImageSource() {
+        return imageSource;
+    }
+
+    public void setImageSource(int imageSource) {
+        this.imageSource = imageSource;
+    }
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getTitle() {
         return title;
@@ -32,4 +52,3 @@ public class News {
         Time = time;
     }
 }
-

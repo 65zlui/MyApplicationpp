@@ -9,7 +9,8 @@ import android.widget.TextView;
 
 
 public class DetailActivity extends AppCompatActivity {
-
+    long stopTime1=0;
+    static boolean isIn=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,16 +34,8 @@ public class DetailActivity extends AppCompatActivity {
 
     public void onStart(){
         super.onStart();
+        stopTime1=System.currentTimeMillis();
+        ListActivity.ttime1=stopTime1;
 
     }
-
-    public void onStop(){
-        super.onStop();
-
-    }
-
-
-
-
-
 }

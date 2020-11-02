@@ -3,93 +3,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_width="match_parent"
+    <ListView
+        android:layout_width="wrap_content"
+        android:id="@+id/listview"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:src="@drawable/hz"
-            ></ImageView>
-        <LinearLayout
-            android:layout_width="180dp"
-            android:layout_marginTop="10dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+    </ListView>
 
-            <TextView
-                android:id="@+id/news1_title"
-                android:layout_width="305dp"
-
-                android:layout_height="30dp"
-                android:paddingTop="2dp"
-                android:layout_marginLeft="10dp"
-
-                android:text="水灾"
-                android:textColor="#011917"
-                android:textSize="16sp"></TextView>
-            <TextView
-                android:id="@+id/source1"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="18dp"
-                android:layout_marginBottom="0dp"
-                android:layout_width="200dp"
-                android:layout_height="25dp"></TextView>
-        </LinearLayout>
-
-            <TextView
-            android:id="@+id/time1"
-            android:layout_marginTop="55dp"
-            android:layout_marginLeft="10dp"
-            android:layout_width="120dp"
-            android:layout_height="20dp"></TextView>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="2dp"
-        android:layout_marginLeft="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:src="@drawable/asd"></ImageView>
-
-        <LinearLayout
-            android:layout_width="180dp"
-            android:layout_marginTop="10dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
-            <TextView
-                android:id="@+id/news2_title"
-                android:layout_marginLeft="10dp"
-                android:textSize="16sp"
-                android:textColor="#011917"
-                android:layout_width="170dp"
-                android:paddingTop="2dp"
-                android:layout_height="30dp"></TextView>
-
-            <TextView
-                android:id="@+id/source2"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="18dp"
-                android:layout_marginBottom="0dp"></TextView>
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/time2"
-            android:layout_marginTop="55dp"
-            android:layout_marginLeft="10dp"
-            android:layout_width="120dp"
-            android:layout_height="20dp"></TextView>
-    </LinearLayout>
 </LinearLayout>
